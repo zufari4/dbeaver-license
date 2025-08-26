@@ -63,7 +63,7 @@ The public key files are located at:
 - **Enterprise**: `keys/dbeaver-ee-public.key`
 - **Ultimate**: `keys/dbeaver-ue-public.key`
 
-### Step 2: Create License Directory
+### Step 2: Create License Directory and Add Keys
 
 Create the `.jkiss-lm` directory in your user home:
 
@@ -75,13 +75,11 @@ mkdir C:\Users\%USERNAME%\.jkiss-lm
 mkdir ~/.jkiss-lm
 ```
 
-### Step 3: Add License Keys
-
 Create two files in the `.jkiss-lm` directory:
 - `public-key.txt` - Paste your generated PUBLIC KEY (without the "--- PUBLIC KEY ---" headers)
 - `private-key.txt` - Paste your generated PRIVATE KEY (without the "--- PRIVATE KEY ---" headers)
 
-### Step 4: Import License
+### Step 3: Import License
 
 1. Launch DBeaver
 2. Go to Help → Import License
